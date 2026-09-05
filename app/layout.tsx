@@ -6,6 +6,7 @@ import {
   Playfair_Display,
   Plus_Jakarta_Sans,
 } from 'next/font/google';
+import ScrollToTopButton from '@/components/shared/scroll-to-top-button';
 import ToastProvider from '@/components/shared/toast-provider';
 import './globals.css';
 
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     >
       <body className="min-h-full flex flex-col">
         {children}
+        <ScrollToTopButton />
         <ToastProvider />
       </body>
     </html>
