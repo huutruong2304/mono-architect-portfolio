@@ -1,0 +1,310 @@
+{
+    "profile": {
+        "firstName": "Truong",
+        "lastName": "Nguyen",
+        "title": "Full Stack Developer",
+        "introduction": "Full Stack Developer with 5+ years of experience building modern web applications using React, Next.js, TypeScript, and scalable backend architectures.",
+        "bio": "I'm a Full Stack Developer with 5+ years of experience building web and mobile applications. My primary expertise is in ReactJS, Next.js, TypeScript, Node.js, and NestJS. I focus on writing maintainable code, creating intuitive user experiences, and delivering scalable products that solve real business problems.",
+        "dateOfBirth": "1999-01-01",
+        "location": "Ho Chi Minh City, Vietnam",
+        "email": "example@gmail.com",
+        "phone": "+84 05123456",
+        "avatar": "https://codingwithtruong.com/_next/image?url=%2Fimages%2Favatar%2Favatar.webp&w=1920&q=75",
+        "education": "University of Information Technology - VNU-HCM"
+    },
+    "highlight": {
+        "yearsOfExperience": 5,
+        "awards": "Top 10 Best Performance Developer at ABC Company"
+    },
+    "socialLinks": {
+        "github": "https://github.com",
+        "linkedin": "https://www.linkedin.com/in/",
+        "youtube": "https://www.youtube.com/",
+        "email": "mailto:example@gmail.com"
+    },
+    "companySkills": [
+        {
+            "type": "frontend",
+            "category": "Frontend",
+            "items": [
+                {
+                    "name": "Frontend Engineering (React, Next.js, TS)",
+                    "level": 95
+                }
+            ]
+        },
+        {
+            "type": "backend-api",
+            "category": "Backend",
+            "items": [
+                {
+                    "name": "Backend & APIs (Node.js, Go, Python)",
+                    "level": 92
+                }
+            ]
+        },
+        {
+            "type": "database",
+            "category": "Database",
+            "items": [
+                {
+                    "name": "Database Systems (PostgreSQL, Redis, Mongo)",
+                    "level": 88
+                }
+            ]
+        },
+        {
+            "type": "cloud",
+            "category": "Cloud & DevOps",
+            "items": [
+                {
+                    "name": "Cloud & DevOps (Docker, K8s, AWS, CI/CD)",
+                    "level": 85
+                }
+            ]
+        },
+        {
+            "type": "architecture",
+            "category": "Architecture",
+            "items": [
+                {
+                    "name": "System Architecture & Microservices",
+                    "level": 90
+                }
+            ]
+        }
+    ],
+    "services": [
+        {
+            "type": "frontend",
+            "title": "Frontend Development",
+            "description": "Responsive, accessible interfaces built for performance and long-term maintainability.",
+            "tags": [
+                "React",
+                "Next.js",
+                "TypeScript"
+            ]
+        },
+        {
+            "type": "backend",
+            "title": "Backend & APIs",
+            "description": "Reliable services and integrations designed around clear contracts and scalable data flows.",
+            "tags": [
+                "Node.js",
+                "NestJS",
+                "REST APIs"
+            ]
+        },
+        {
+            "type": "cloud",
+            "title": "Cloud Delivery",
+            "description": "Production-ready deployment workflows, observability, and infrastructure for modern applications.",
+            "tags": [
+                "AWS",
+                "CI/CD",
+                "Docker"
+            ]
+        },
+        {
+            "type": "architecture",
+            "title": "Solution Architecture",
+            "description": "Pragmatic technical design that balances product goals, system reliability, and team velocity.",
+            "tags": [
+                "System Design",
+                "Databases",
+                "Scalability"
+            ]
+        }
+    ],
+    "companyExperiences": [
+        {
+            "company": "Tech Solutions Inc.",
+            "position": "Full Stack Developer",
+            "startDate": "2022/02",
+            "endDate": "Present",
+            "description": [
+                "Designed, developed and maintained scalable web applications using ReactJS, Next.js, TypeScript and Node.js.",
+                "Collaborated with cross-functional teams to deliver new features and improve existing products.",
+                "Integrated RESTful APIs, optimized application performance and enhanced user experience.",
+                "Participated in Agile development processes, code reviews and technical discussions."
+            ]
+        },
+        {
+            "company": "Digital Innovation Studio",
+            "position": "Front End Developer",
+            "startDate": "2020/06",
+            "endDate": "2022/02",
+            "description": [
+                "Built responsive and interactive user interfaces using ReactJS, JavaScript and modern frontend technologies.",
+                "Worked closely with designers and backend developers to implement product requirements.",
+                "Maintained and improved application quality through bug fixes and performance optimizations.",
+                "Contributed to feature planning, estimation and sprint activities in an Agile environment."
+            ]
+        }
+    ],
+    "freelanceSkills": [
+        {
+            "type": "frontend",
+            "category": "Frontend",
+            "items": [
+                {
+                    "name": "Frontend Engineering (React, Next.js, TS)",
+                    "level": 95
+                }
+            ]
+        },
+        {
+            "type": "backend-api",
+            "category": "Backend",
+            "items": [
+                {
+                    "name": "Backend & APIs (Node.js, Go, Python)",
+                    "level": 92
+                }
+            ]
+        },
+        {
+            "type": "database",
+            "category": "Database",
+            "items": [
+                {
+                    "name": "Database Systems (PostgreSQL, Redis, Mongo)",
+                    "level": 88
+                }
+            ]
+        },
+        {
+            "type": "cloud",
+            "category": "Cloud & DevOps",
+            "items": [
+                {
+                    "name": "Cloud & DevOps (Docker, K8s, AWS, CI/CD)",
+                    "level": 85
+                }
+            ]
+        },
+        {
+            "type": "architecture",
+            "category": "Architecture",
+            "items": [
+                {
+                    "name": "System Architecture & Microservices",
+                    "level": 90
+                }
+            ]
+        }
+    ],
+    "freelanceExperiences": [
+        {
+            "company": "Independent Clients",
+            "position": "Freelance Full Stack Developer",
+            "startDate": "2021/01",
+            "endDate": "Present",
+            "description": [
+                "Delivered custom web and mobile solutions for clients across multiple industries.",
+                "Gathered requirements, designed technical solutions and implemented end-to-end features.",
+                "Developed frontend interfaces, backend services and database integrations.",
+                "Provided ongoing maintenance, troubleshooting and performance improvements."
+            ]
+        }
+    ],
+    "freelanceImpact": {
+        "metrics": [
+            {
+                "value": "6",
+                "suffix": "+",
+                "label": "Years of Experience"
+            },
+            {
+                "value": "50",
+                "suffix": "+",
+                "label": "Systems Deployed"
+            },
+            {
+                "value": "99",
+                "suffix": ".9%",
+                "label": "Production SLA Uptime"
+            }
+        ],
+        "quote": {
+            "content": "Programs must be written for people to read, and only incidentally for machines to execute.",
+            "author": "Harold Abelson",
+            "source": "Structure and Interpretation of Computer Programs"
+        }
+    },
+    "projects": [
+        {
+            "name": "LearnHub Platform",
+            "source": "freelance",
+            "domain": "Education",
+            "thumbnail": "https://placehold.co/1200x800/png?text=LearnHub+Platform",
+            "description": "An online learning platform that provides courses, mock exams and study materials through a modern web experience.",
+            "techStack": [
+                "Next.js",
+                "TypeScript",
+                "TailwindCSS",
+                "PostgreSQL"
+            ],
+            "role": "Full Stack Developer",
+            "demoUrl": "",
+            "githubUrl": "",
+            "featured": true
+        },
+        {
+            "name": "ShopSphere",
+            "source": "freelance",
+            "domain": "E-commerce",
+            "thumbnail": "https://placehold.co/1200x800/png?text=ShopSphere",
+            "description": "A modern e-commerce platform with product catalog management, shopping cart functionality and order tracking.",
+            "techStack": [
+                "NextJS",
+                "ReactJS",
+                "TypeScript",
+                "TailwindCSS",
+                "NestJS"
+            ],
+            "role": "Full Stack Developer",
+            "demoUrl": "",
+            "githubUrl": "",
+            "featured": true
+        },
+        {
+            "name": "ChargeFlow",
+            "source": "company",
+            "domain": "Electric Vehicles",
+            "thumbnail": "https://placehold.co/1200x800/png?text=ChargeFlow",
+            "description": "A smart EV charging management platform that allows users to locate charging stations, schedule charging sessions and manage payments.",
+            "techStack": [
+                "ReactJS",
+                "NestJS",
+                "WebSocket",
+                "PostgreSQL",
+                "Amazon S3"
+            ],
+            "role": "Full Stack Developer",
+            "demoUrl": "",
+            "githubUrl": "",
+            "featured": true
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Alex Morgan",
+            "role": "Product Manager",
+            "quote": "Truong translated complex requirements into a stable product and kept delivery clear from planning through launch.",
+            "rating": 5
+        },
+        {
+            "name": "Sarah Chen",
+            "role": "Engineering Lead",
+            "quote": "A thoughtful engineer with strong ownership, clean implementation habits, and excellent collaboration across the team.",
+            "rating": 5
+        },
+        {
+            "name": "Daniel Lee",
+            "role": "Startup Founder",
+            "quote": "The application was delivered with a polished user experience and a backend foundation we could confidently scale.",
+            "rating": 5
+        }
+    ]
+}
