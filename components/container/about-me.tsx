@@ -22,7 +22,7 @@ const AboutMe = ({ firstName, lastName, roles, introduction, awards, avatar }: A
         {/* Left Column: Heading & Role */}
         <div className="lg:col-span-7 flex flex-col justify-between z-10">
           <div className="mb-6 select-none">
-            <h1 className="hero-title font-bebas uppercase tracking-tight font-bold text-ink flex flex-col">
+            <h1 className="hero-title font-bebas uppercase tracking-wide font-bold text-ink flex flex-col ">
               <span className="block">{firstName}</span>
               <span className="block -mt-1 sm:-mt-2">{lastName}</span>
             </h1>

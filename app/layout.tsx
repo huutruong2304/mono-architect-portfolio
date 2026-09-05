@@ -1,16 +1,43 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import {
+  Bebas_Neue,
+  Fira_Code,
+  Inter,
+  Playfair_Display,
+  Plus_Jakarta_Sans,
+} from 'next/font/google';
 import ToastProvider from '@/components/shared/toast-provider';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const bebasNeue = Bebas_Neue({
+  variable: '--font-bebas-neue',
+  weight: '400',
   subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const firaCode = Fira_Code({
+  variable: '--font-fira-code',
+  weight: ['400', '500', '600'],
   subsets: ['latin'],
+});
+
+const inter = Inter({
+  variable: '--font-inter-family',
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin', 'vietnamese'],
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: '--font-plus-jakarta-sans',
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin', 'vietnamese'],
+});
+
+const playfairDisplay = Playfair_Display({
+  variable: '--font-playfair-display',
+  weight: ['400', '600'],
+  style: ['normal', 'italic'],
+  subsets: ['latin', 'vietnamese'],
 });
 
 export const metadata: Metadata = {
@@ -22,7 +49,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
+      className={`${bebasNeue.variable} ${firaCode.variable} ${inter.variable} ${plusJakartaSans.variable} ${playfairDisplay.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col">
         {children}
