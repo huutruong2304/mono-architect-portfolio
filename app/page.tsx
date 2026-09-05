@@ -9,6 +9,7 @@ import Experience from '@/components/container/experience';
 import FreelanceExperience from '@/components/container/freelance-experience';
 import Projects from '@/components/container/projects';
 import Reviews from '@/components/container/reviews';
+import ScrollReveal from '@/components/shared/scroll-reveal';
 
 const NAVIGATION_LINKS = [
   { href: '#home', label: 'Home' },
@@ -32,37 +33,54 @@ export default function App() {
             sign="CWT"
             navigationLinks={NAVIGATION_LINKS}
           />
-          <AboutMe
-            firstName={portfolio.profile.firstName}
-            lastName={portfolio.profile.lastName}
-            roles={[portfolio.profile.title, 'Cloud & Distributed Systems Architect']}
-            introduction={portfolio.profile.introduction}
-            awards={portfolio.highlight.awards.split(', ')}
-            avatar={{
-              src: portfolio.profile.avatar,
-              alt: `${portfolio.profile.firstName} ${portfolio.profile.lastName} - ${portfolio.profile.title}`,
-            }}
-          />
-          <Services services={portfolio.services} />
-          <Experience skills={portfolio.companySkills} experiences={portfolio.companyExperiences} />
-          <FreelanceExperience
-            skills={portfolio.freelanceSkills}
-            impact={portfolio.freelanceImpact}
-          />
-          <Projects
-            projects={portfolio.projects}
-            githubUrl={portfolio.socialLinks.github}
-            contactEmail={portfolio.profile.email}
-          />
-          <Reviews reviews={portfolio.reviews} />
+          <ScrollReveal>
+            <AboutMe
+              firstName={portfolio.profile.firstName}
+              lastName={portfolio.profile.lastName}
+              roles={[portfolio.profile.title, 'Cloud & Distributed Systems Architect']}
+              introduction={portfolio.profile.introduction}
+              awards={portfolio.highlight.awards.split(', ')}
+              avatar={{
+                src: portfolio.profile.avatar,
+                alt: `${portfolio.profile.firstName} ${portfolio.profile.lastName} - ${portfolio.profile.title}`,
+              }}
+            />
+          </ScrollReveal>
+          <ScrollReveal>
+            <Services services={portfolio.services} />
+          </ScrollReveal>
+          <ScrollReveal direction="left">
+            <Experience
+              skills={portfolio.companySkills}
+              experiences={portfolio.companyExperiences}
+            />
+          </ScrollReveal>
+          <ScrollReveal direction="right">
+            <FreelanceExperience
+              skills={portfolio.freelanceSkills}
+              impact={portfolio.freelanceImpact}
+            />
+          </ScrollReveal>
+          <ScrollReveal>
+            <Projects
+              projects={portfolio.projects}
+              githubUrl={portfolio.socialLinks.github}
+              contactEmail={portfolio.profile.email}
+            />
+          </ScrollReveal>
+          <ScrollReveal>
+            <Reviews reviews={portfolio.reviews} />
+          </ScrollReveal>
 
-          <Footer
-            email={portfolio.profile.email}
-            phone={portfolio.profile.phone}
-            github={portfolio.socialLinks.github}
-            linkedin={portfolio.socialLinks.linkedin}
-            youtube={portfolio.socialLinks.youtube}
-          />
+          <ScrollReveal>
+            <Footer
+              email={portfolio.profile.email}
+              phone={portfolio.profile.phone}
+              github={portfolio.socialLinks.github}
+              linkedin={portfolio.socialLinks.linkedin}
+              youtube={portfolio.socialLinks.youtube}
+            />
+          </ScrollReveal>
         </main>
       </div>
     </>
